@@ -1,0 +1,40 @@
+.brand{
+    color:red;
+}
+
+
+nav{
+    text-align:right;
+    color:white;
+    position:static;
+    height: 50px;
+    top:0px;
+    
+
+}
+
+h1{
+    text-align:center;
+    color:white;
+    height: 50px;
+       
+    
+    
+}
+h3{
+  
+    text-align:center; 
+     color:white;
+}
+h4{
+    text-align:center; 
+ color:white;
+}
+form{
+    text-align:center; 
+     color:white;
+}
+body{
+    background-color: black;
+    
+}
