@@ -1,6 +1,8 @@
 .brand{
-    color:red;
+     color: red;
+
 }
+
 .logo {
   color: red;
   font-weight: bold;
@@ -26,14 +28,12 @@ nav{
 .movies img {
   height: 320px;
   border-radius: 10px;
-  transition: 0.3s ease;
+  transition: 0.4s ease;
   cursor: pointer;
 }
-
-/* 🔥 Hover Effect */
 .movies img:hover {
-  transform: scale(1.1);        /* zoom */
-  box-shadow: 0 10px 25px rgba(255, 0, 0, 0.6); /* glow */
+  transform: scale(1.2);
+  box-shadow: 0 10px 25px rgba(255, 0, 0, 0.6);
 }
 
 h1{
@@ -87,7 +87,7 @@ body {
   padding: 25px;
   border-radius: 15px;
   width: 280px;
-  min-height: 200px;
+  min-height: 180px;
   transition: 0.3s;
 }
 
@@ -100,7 +100,6 @@ body {
   color: #ccc;
 }
 
-/* Hover effect */
 .card:hover {
   transform: translateY(-10px);
 }
