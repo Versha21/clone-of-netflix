@@ -17,6 +17,24 @@ nav{
 
 
 }
+.movies {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+
+.movies img {
+  height: 320px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* 🔥 Hover Effect */
+.movies img:hover {
+  transform: scale(1.1);        /* zoom */
+  box-shadow: 0 10px 25px rgba(255, 0, 0, 0.6); /* glow */
+}
 
 h1{
     text-align:center;
@@ -42,4 +60,47 @@ form{
 body{
     background-color: black;
 
+}
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.reasons {
+  padding: 50px;
+}
+
+.reasons h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: linear-gradient(145deg, #1c1c3c, #2a0f2e);
+  padding: 25px;
+  border-radius: 15px;
+  width: 280px;
+  min-height: 200px;
+  transition: 0.3s;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-10px);
 }
