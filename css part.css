@@ -1,7 +1,12 @@
 .brand{
     color:red;
 }
-
+.logo {
+  color: red;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Arial, sans-serif;
+}
 
 nav{
     text-align:right;
@@ -9,7 +14,7 @@ nav{
     position:static;
     height: 50px;
     top:0px;
-    
+
 
 }
 
@@ -17,24 +22,24 @@ h1{
     text-align:center;
     color:white;
     height: 50px;
-       
-    
-    
+
+
+
 }
 h3{
-  
-    text-align:center; 
+
+    text-align:center;
      color:white;
 }
 h4{
-    text-align:center; 
+    text-align:center;
  color:white;
 }
 form{
-    text-align:center; 
+    text-align:center;
      color:white;
 }
 body{
     background-color: black;
-    
+
 }
