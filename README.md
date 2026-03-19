@@ -47,23 +47,4 @@ Netflix-style homepage with trending movies and feature cards.
 
 ---
 
-## ✨ Future Improvements
 
-* Add movie slider/carousel
-* Add login/signup page
-* Improve responsiveness
-* Add animations
-
----
-
-## 🤝 Contributing
-
-Feel free to fork this repository and improve it.
-
----
-
-## ⭐ Support
-
-If you like this project, give it a star on GitHub ⭐
-
----
