@@ -26,7 +26,7 @@ This project replicates the look and feel of the Netflix homepage with modern UI
 📁 netflix-clone
 ├── netflix.html
 ├── css part.css
-└── assets (images)
+
 
 ---
 
