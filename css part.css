@@ -1,3 +1,6 @@
+*{
+  
+}
 .brand{
      color: red;
 
@@ -12,14 +15,14 @@
 }
 
 nav{
-    text-align:right;
-    color:white;
-    position:static;
-    height: 50px;
-    top:0px;
-
-
+  max-width: 60 vw;
+  justify-content: space-around;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 62px;
 }
+
 .movies {
   display: flex;
   gap: 15px;
