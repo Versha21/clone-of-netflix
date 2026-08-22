@@ -1,28 +1,62 @@
-*{
-  
-}
-.brand{
-     color: red;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.logo {
-  color: red;
-  font-weight: bold;
-  font-size: 32px;
-  font-family: Arial, sans-serif;
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
 
+body {
+    background: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-bar {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 100;
+width: 100%;
+display: flex;
+height: 50px;
+align-items: center;
+background: var(--offer, linear-gradient(90deg, var(--Violet-violet-600, #5c32bf) 0%, var(--Violet-violet-600, #5c32bf) 20%, var(--Red-red-500, #e50914) 100%));
+cursor: pointer;
+margin-right: 10px;
+text-align: center;
+}
+
+.top-bar h1{
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+.hero {
+    min-height: 720px;
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100% ),url("netflix.jpg") center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
 }
 
 nav{
-  max-width: 60 vw;
+  max-width: 60vw;
   justify-content: space-around;
   margin: auto;
   display: flex;
   align-items: center;
   height: 62px;
 }
-
 .movies {
   display: flex;
   gap: 15px;
@@ -39,45 +73,57 @@ nav{
   transform: scale(1.2);
   box-shadow: 0 10px 25px rgba(255, 0, 0, 0.6);
 }
-
-h1{
-    text-align:center;
-    color:white;
-    height: 50px;
-
-
-
-
+.cta-form {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
 }
-h3{
 
-    text-align:center;
-     color:white;
+.cta-form input {
+    width: 380px;
+    height: 60px;
+    padding: 0 18px;
+    background: rgba(20, 20, 20, 0.75);
+    border: 1px solid #777;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
 }
-h4{
-    text-align:center;
- color:white;
+
+.cta-form button {
+    height: 60px;
+    padding: 0 28px;
+    background: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
 }
-form{
-    text-align:center;
-     color:white;
+
+.cta-form button:hover {
+    background: #f40612;
 }
-body{
-    background-color: black;
-}
-body {
-  background-color: black;
-  font-family: Arial, sans-serif;
+.ready{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
   color: white;
 }
 
 .reasons {
   padding: 50px;
+  color: white;
 }
 
 .reasons h2 {
   margin-bottom: 30px;
   font-size: 28px;
+  color: white;
 }
 
 .cards {

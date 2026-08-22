@@ -8,9 +8,12 @@
 </head>
 <body>
  <header>
+  <div class="top-bar">
+           <h1> New to Netflix? Try 30 days for 0Rs.</h1>
+  </div>
 <nav>
   <div class="brand">
-    <span><img src="https://occ.a.nflxso.net/dnmt/api/v6/iL4oJVDYZ8KLSrJ6eG2OwtghbfQ/AAAAAfwxusEeCteu-L_QQ56_G2cohyI1E4BIh2uyr5t9gDhH0CKWHw3NVhndjuF7yQ26z3cYq_lnzY5pP6OarHyiibuiy2jIIa5sIhSvgal1S6u9YDVAyVoX6osPniEKN-dYy77H_pLfOCD7.svg"alt="Netflix Logo"width="100"/></span>
+    <span><img src="https://occ.a.nflxso.net/dnmt/api/v6/iL4oJVDYZ8KLSrJ6eG2OwtghbfQ/AAAAAfwxusEeCteu-L_QQ56_G2cohyI1E4BIh2uyr5t9gDhH0CKWHw3NVhndjuF7yQ26z3cYq_lnzY5pP6OarHyiibuiy2jIIa5sIhSvgal1S6u9YDVAyVoX6osPniEKN-dYy77H_pLfOCD7.svg"alt="Netflix Logo"width="150"/></span>
  </div>
  <span>
  <select id="lang" name="language">
@@ -23,15 +26,35 @@
 </header>
 
 <main>
-  <section class="hero">
-    <h1>Unlimited movies, shows, and more</h1>
-    <h3>Starts at ₹149. Cancel anytime.</h3>
-    <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
-    <form action="#" method="post" class="cta-form">
-      <label for="email" class="visually-hidden">Email address</label>
-      <input id="email" name="email" type="email" placeholder="Email address" required>
-      <button class="cta-btn" type="submit">Get started</button>
-    </form>
+ <section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Unlimited movies, shows, and more</h1>
+
+        <p class="price">
+            Starts at ₹149. Cancel anytime.
+        </p>
+
+        <p class="ready">
+            Ready to watch? Enter your email to create or restart your membership.
+        </p>
+
+        <form class="cta-form">
+            <input
+                type="email"
+                placeholder="Email address"
+                required
+            >
+
+            <button type="submit">
+                Try 30 days for 0Rs. <span>›</span>
+            </button>
+        </form>
+
+    </div>
+
+</section>
  <br>
  <br>
  <br>
@@ -78,13 +101,21 @@
     <br>
     <br>
     <br>
-    <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
-    <form action="#" method="post" class="cta-form">
-      <label for="email" class="visually-hidden">Email address</label>
-      <input id="email" name="email" type="email" placeholder="Email address" required>
-      <button class="cta-btn" type="submit">Get started</button>
-    </form>
+    <p class="ready">
+            Ready to watch? Enter your email to create or restart your membership.
+        </p>
 
+        <form class="cta-form">
+            <input
+                type="email"
+                placeholder="Email address"
+                required
+            >
+
+            <button type="submit">
+                Try 30 days for 0Rs. <span>›</span>
+            </button>
+        </form>
 
   </section>
 </main>
