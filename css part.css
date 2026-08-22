@@ -3,18 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html,
 body {
     width: 100%;
     min-height: 100%;
 }
-
 body {
     background: #000;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 .top-bar {
 position: fixed;
 top: 0;
@@ -30,15 +30,16 @@ cursor: pointer;
 margin-right: 10px;
 text-align: center;
 }
-
-.top-bar h1{
-    font-size: 18px;
+.top-bar h1 {
+    font-size: 1.2rem;
     color: white;
-    margin-left: 20px;
-    
+    text-align: center;
+    width: 100%;
+    font-family: var(--hcw--local-design--Text-TextFontFamily);
 }
 
-.hero {
+
+.hero{
     min-height: 720px;
     background:linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100% ),url("netflix.jpg") center / cover no-repeat;
     display: flex;
@@ -48,7 +49,6 @@ text-align: center;
     position: relative;
     color: white;
 }
-
 nav{
   max-width: 60vw;
   justify-content: space-around;
@@ -57,28 +57,31 @@ nav{
   align-items: center;
   height: 62px;
 }
+
+
 .movies {
   display: flex;
   gap: 15px;
   padding: 20px;
 }
-
 .movies img {
   height: 320px;
   border-radius: 10px;
   transition: 0.4s ease;
   cursor: pointer;
+
 }
 .movies img:hover {
   transform: scale(1.2);
   box-shadow: 0 10px 25px rgba(255, 0, 0, 0.6);
 }
+
+
 .cta-form {
     display: flex;
     justify-content: center;
     gap: 8px;
 }
-
 .cta-form input {
     width: 380px;
     height: 60px;
@@ -89,7 +92,6 @@ nav{
     color: white;
     font-size: 16px;
 }
-
 .cta-form button {
     height: 60px;
     padding: 0 28px;
@@ -101,10 +103,12 @@ nav{
     font-weight: 600;
     cursor: pointer;
 }
-
 .cta-form button:hover {
     background: #f40612;
 }
+
+
+
 .ready{
   display: flex;
   justify-content: center;
@@ -114,24 +118,23 @@ nav{
   padding: 50px;
   color: white;
 }
-
 .reasons {
   padding: 50px;
   color: white;
 }
-
 .reasons h2 {
   margin-bottom: 30px;
   font-size: 28px;
   color: white;
 }
 
+
+
 .cards {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
-
 .card {
   background: linear-gradient(145deg, #1c1c3c, #2a0f2e);
   padding: 25px;
@@ -140,16 +143,13 @@ nav{
   min-height: 180px;
   transition: 0.3s;
 }
-
 .card h3 {
   margin-bottom: 10px;
 }
-
 .card p {
   font-size: 14px;
   color: #ccc;
 }
-
 .card:hover {
   transform: translateY(-10px);
 }
