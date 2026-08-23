@@ -41,7 +41,14 @@ text-align: center;
 
 .hero{
     min-height: 720px;
-    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100% ),url("netflix.jpg") center / cover no-repeat;
+    background:
+    linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.55) 0%,
+        rgba(0, 0, 0, 0.65) 50%,
+        rgba(0, 0, 0, 0.98) 100%
+    ),
+    url("netflix.jpg") center / cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
