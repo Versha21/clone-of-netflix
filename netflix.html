@@ -7,30 +7,29 @@
      <link rel="stylesheet" href="css part.css">
 </head>
 <body>
- <header>
+  <section class="hero">
+   <header>
   <div class="top-bar">
            <h1> New to Netflix? Try 30 days for 0Rs.</h1>
   </div>
-<nav>
+  <div class="main">
   <div class="brand">
     <span><img src="https://occ.a.nflxso.net/dnmt/api/v6/iL4oJVDYZ8KLSrJ6eG2OwtghbfQ/AAAAAfwxusEeCteu-L_QQ56_G2cohyI1E4BIh2uyr5t9gDhH0CKWHw3NVhndjuF7yQ26z3cYq_lnzY5pP6OarHyiibuiy2jIIa5sIhSvgal1S6u9YDVAyVoX6osPniEKN-dYy77H_pLfOCD7.svg"alt="Netflix Logo"width="150"/></span>
  </div>
- <span>
+<span>
  <select id="lang" name="language">
       <option value="en">English</option>
       <option value="hi">Hindi</option>
     </select>
     <button class="signin-btn">Sign In</button>
  </span>
-</nav>
+ </div>
 </header>
 
 <main>
- <section class="hero">
+  <div class="hero-content">
 
-    <div class="hero-content">
-
-        <h1>Unlimited movies, shows, and more</h1>
+        <h1 class="hero-text">Unlimited movies, shows, and more</h1>
 
         <p class="price">
             Starts at ₹149. Cancel anytime.
@@ -46,11 +45,12 @@
                 placeholder="Email address"
                 required
             >
-
             <button type="submit">
-                Try 30 days for 0Rs. <span>›</span>
+                Try 30 days for 0Rs.
             </button>
         </form>
+        <p class ="error-message">New members only. Terms below</p>
+
 
     </div>
 
